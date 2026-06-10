@@ -62,11 +62,12 @@ Autor
 
 Sander Roni
 
-Imagens do Projeto:
 Busca:
-<img width="499" height="529" alt="image" src="https://github.com/user-attachments/assets/4a6f5bf7-5bff-4bc2-837b-723bec8f0e0f" /> 
+<img width="499" height="529" alt="image" src="https://github.com/user-attachments/assets/4a6f5bf7-5bff-4bc2-837b-723bec8f0e0f" />
+
 Ao Adicionar ao Carrinho:
 <img width="497" height="529" alt="image" src="https://github.com/user-attachments/assets/242e1529-8b7c-41f1-a70d-a7ae38b031d1" />
+
 Calculo de Item:
 <img width="338" height="307" alt="image" src="https://github.com/user-attachments/assets/951c731b-8997-4dcc-ba79-3f86deca0b4b" />
 
