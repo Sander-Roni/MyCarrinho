@@ -11,11 +11,11 @@ class Search:
         self.win.geometry("500x500")
         self.win.title("Buscar Produtos")
 
-        self.reload_icon = tk.PhotoImage(r"C:\Users\Anuli\Desktop\RestAPIs\API com IA\Aplicacao\Images\arquivo.ico")
+        self.reload_icon = tk.PhotoImage(r"C:\Users\Anuli\Desktop\RestAPIs\MyCarrinho\Aplicacao\Images\arquivo.ico")
         self.win.iconbitmap(False, self.reload_icon)
 
         self.win.resizable(False,False)
-        startImage = Image.open(r"C:\Users\Anuli\Desktop\RestAPIs\API com IA\Aplicacao\Images\BackgroundForLoja.webp")
+        startImage = Image.open(r"C:\Users\Anuli\Desktop\RestAPIs\MyCarrinho\Aplicacao\Images\BackgroundForLoja.webp")
         startImageResize = startImage.resize((600,800), Image.LANCZOS)
         self.chargeSrc = ImageTk.PhotoImage(startImageResize)
         self.LabelWin = tk.Label(self.win,image=self.chargeSrc)
@@ -67,7 +67,7 @@ class Search:
         print(response.text)
 #-------------------------------------------------------------------------------------------------------------------------------------#
     def ImagemDoCarrinho(self):
-        self.Buywebp = Image.open(r"C:\Users\Anuli\Desktop\RestAPIs\API com IA\Aplicacao\Images\Buy.webp")
+        self.Buywebp = Image.open(r"C:\Users\Anuli\Desktop\RestAPIs\MyCarrinho\Aplicacao\Images\Buy.webp")
         self.ImageBuywebp = self.Buywebp.resize((20,20), Image.LANCZOS)
         self.DeclarateImage = ImageTk.PhotoImage(self.ImageBuywebp)
         return self.DeclarateImage

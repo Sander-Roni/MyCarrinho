@@ -7,10 +7,10 @@ class Carrinho:
         self.run = tk.Tk()
         self.run.title("Itens No Carrinho")
 
-        self.ImagemLogo = tk.PhotoImage(r"C:\Users\Anuli\Desktop\RestAPIs\API com IA\Aplicacao\Images\arquivo.ico")
+        self.ImagemLogo = tk.PhotoImage(r"C:\Users\Anuli\Desktop\RestAPIs\MyCarrinho\Aplicacao\Images\arquivo.ico")
         self.run.iconbitmap(False, self.ImagemLogo)
 
-        self.Tenda = Image.open(r"C:\Users\Anuli\Desktop\RestAPIs\API com IA\Aplicacao\Images\Tenda.png")
+        self.Tenda = Image.open(r"C:\Users\Anuli\Desktop\RestAPIs\MyCarrinho\Aplicacao\Images\Tenda.png")
         self.RedimensionarTenda = self.Tenda.resize((1000,1000), Image.LANCZOS)
         self.CarregarTenda = ImageTk.PhotoImage(self.RedimensionarTenda)
 
