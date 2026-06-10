@@ -68,7 +68,7 @@ Busca:
 Ao Adicionar ao Carrinho:
 <img width="497" height="529" alt="image" src="https://github.com/user-attachments/assets/242e1529-8b7c-41f1-a70d-a7ae38b031d1" />
 
-Calculo de Item:
+Calculo de Total e Amostragem de Item:
 <img width="338" height="307" alt="image" src="https://github.com/user-attachments/assets/951c731b-8997-4dcc-ba79-3f86deca0b4b" />
 
 
