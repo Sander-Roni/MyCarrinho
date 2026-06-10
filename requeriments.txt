@@ -1,0 +1,14 @@
+Produtos (itens já a Venda) -->
+Pedido (selecao )--> 
+Carrinho --> 
+Compra --> 
+Pagamento(Conclusão) -->
+Subtracao(Estoque)
+
+
+/////////////////////////////////////////////////////////////
+Tkinter
+    |_ Buscas por Produto (OK)
+      |_ Adição ao Carrinho
+       |_ Pagamento 
+        |_ Subtracao Estoque
